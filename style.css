@@ -105,6 +105,10 @@ img {
 /* second box */
 
 @media (max-width: 500px) {
+    body {
+        gap: 50px;
+    }
+
     .wrapper {
         width: 80%;
         aspect-ratio: 16 / 9;
