@@ -103,3 +103,20 @@ img {
     100% {transform: translateX(-600%);}
 }
 /* second box */
+
+@media (max-width: 500px) {
+    .wrapper {
+        width: 80%;
+        aspect-ratio: 16 / 9;
+    }
+
+    .text-box-1, .text-box-2 {
+        font-size: 1.5rem;
+    }
+
+    .auto-slide {
+        width: 80%;
+        aspect-ratio: 16 / 9;
+    }
+}
+   
